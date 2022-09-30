@@ -1,0 +1,144 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* nav */
+
+/* phone */
+
+.wrapper {
+  width: 100%;
+}
+
+.img-banner {
+  display: none;
+}
+
+.img-info {
+  width: 100%;
+}
+
+.img-info h2 {
+  padding: 30px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 41px;
+  color: #222;
+  line-height: 50px;
+}
+
+.img-info p {
+  padding: 0px 30px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #222;
+  line-height: 24px;
+}
+
+.img-killa {
+  width: 80%;
+  border-radius: 100px;
+  margin-left: 10%;
+}
+
+.text-under {
+  margin: 30px 0px 0px;
+}
+
+/* tablet*/
+
+@media only screen and (min-width: 768px) {
+  .banner {
+    height: 51vh;
+    width: 100%;
+    background-image: url(./images/BANNER1.jpg);
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .img-banner {
+    display: block;
+    width: 100%;
+    padding-bottom: 60px;
+  }
+
+  .wrapper {
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .img-killa {
+    display: block;
+    width: 500px;
+    border-radius: 100px;
+    margin: 0 auto;
+  }
+
+  .img-info h2 {
+    padding: 20px 0px 0px;
+    font-size: 50px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .text-under {
+    margin: 10px 0px 0px;
+  }
+}
+
+/* pc */
+
+@media only screen and (min-width: 1000px) {
+  .banner {
+    height: 51vh;
+    width: 100%;
+    background-image: url(./images/BANNER1.jpg);
+    margin-bottom: 60px;
+    background-size: cover;
+    background-position: center;
+  }
+
+  .wrapper {
+    width: 1000px;
+  }
+
+  .img-info {
+    width: 50%;
+    float: left;
+  }
+
+  .img-killa {
+    display: block;
+    width: 400px;
+    border-radius: 100px;
+    margin: 22px 350px 0px 0px;
+    float: right;
+  }
+
+  .img-info h2 {
+    padding: 30px 0px 10px 0px;
+    font-size: 60px;
+  }
+
+  .img-info p {
+    padding: 20px 0px 10px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+  }
+
+  .text-under {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 10px 0px 200px 0px;
+  }
+}
