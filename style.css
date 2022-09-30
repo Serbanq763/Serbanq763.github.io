@@ -42,7 +42,7 @@
 }
 
 .text-under {
-  margin: 30px 0px 0px;
+  margin: 15px 0px 0px;
 }
 
 /* tablet*/
@@ -117,7 +117,7 @@
     display: block;
     width: 400px;
     border-radius: 100px;
-    margin: 22px 350px 0px 0px;
+    margin: 22px 350px 200px 0px;
     float: right;
   }
 
@@ -137,8 +137,11 @@
   }
 
   .text-under {
-    display: table-cell;
-    vertical-align: middle;
-    margin: 10px 0px 200px 0px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    margin-bottom: 100px;
   }
 }
